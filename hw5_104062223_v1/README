@@ -1,0 +1,27 @@
+1. There are three folders, part1, part2 and part3
+	Please write question 1 in part1, question 2 in part2, question 3 in part3
+	that is,
+	part1/hw5_1_test.v	:	the testbench of question1
+	part1/hw5_1.v		:	the design of question1
+	part1/decoder.v		:	the 3:8 decoder
+	part1/Makefile		:	use this file to run simulation
+
+	part2/hw5_2_test.v	:	the testbench of question2
+	part2/hw5_2.v		:	the design of question2
+	part2/Makefile		:	use this file to run simulation
+
+	part3/hw5_3_test.v	:	the testbench of question3
+	part3/hw5_3.v		:	the design of question3
+	(part3/hw5_2.v)		:	the design of question2 (Makefile will copy from part2)
+	part3/Makefile		:	use this file to run simulation
+
+	NOTE: please DO NOT change the port and module name
+
+2. Run:
+	in each folder, use Makefile to run simulation:
+	$make
+	and you can use Makefile to clear all temporary files
+	$make clean
+
+	NOTE: please finish part2 before you start part3
+		The Makefile will copy the file part2/hw5_2.v to part3/ before part3 begin to run simulation

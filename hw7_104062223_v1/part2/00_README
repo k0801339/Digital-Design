@@ -1,0 +1,21 @@
+1. You may use run.sh to run the program
+
+     $ sh run.sh
+
+   Or using Makefile
+
+     $ make
+
+   Or do a lot of typing
+
+     $ ncverilog gcd_t.v gcd.v +access+r
+
+
+2. Files:
+
+     00_README:          This file 
+     run.sh:             Shell scrip to help the simulation
+     Makefile:           Makefile to help the simulation
+     gcd_t.v:            Verilog template of the test stimulus
+     gcd.v:              Verilog template of the design module
+     gcd_golden.fsdb:    Golden response for your reference

@@ -1,0 +1,16 @@
+1.
+Run the Verilog simulation by 
+
+  $ ncverilog hw7_1_test.v hw7_1.v +access+r
+
+Or you may use the shell script by
+
+  $ sh ./hw7_1.sh
+
+
+2.
+Files:
+  00_README:    This file
+  hw7_1.sh:     Shell script to help the simulation
+  hw7_1_test.v: Verilog template of test stimulus
+  hw7_1.v:      Verilog template of design

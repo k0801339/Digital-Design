@@ -1,0 +1,21 @@
+1. There are two folders, part1 and part2.
+	Please write question 1 in part1, and question in part2
+	that is,
+	part1/hw4_1_test.v	:	the testbench of question1
+	part1/hw4_1.v		:	the design of question1
+	part1/Makefile		:	use this file to run simulation
+
+	part2/hw4_2_test.v	:	the testbench of question2
+	part2/hw4_2.v		:	the design of question2
+	part2/f_adder.v		: 	the one-bit adder
+	part2/Makefile		:	use this file to run simulation
+
+
+	NOTE: please DO NOT change the port and module name
+
+2. Run:
+	in each folder, use Makefile to run simulation:
+	$make
+	and you can use Makefile to clear all temporary files
+	$make clean
+
